@@ -1,0 +1,54 @@
+body{
+    background-image: url(/assets/main-images/main.jpg);
+    width: 1440px;
+    height: 1024px;
+}
+.header{
+    height: 30%;
+}
+.settings{
+    height: 36px;
+    width: 36px;
+    position: absolute;
+    right: 70px;
+    top: 70px;
+    background-image: url(/assets/main-images/carbon_settings.svg);
+}
+.main{
+    height: 60%;
+}
+.logo{
+    background-image: url(/assets/main-images/logo.svg);
+    width: 440px;
+    height: 165px;
+    margin-top: 25px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.main-btns{
+    display: flex;
+    justify-content: center;
+}
+.main-btn{
+    display: inline-block;
+    height: 4em;
+    width: 20em;
+    border: solid 1px white;
+    border-radius: 40px;
+    margin-left: 20px ;
+    margin-right: 20px;
+    margin-top: 165px;
+}
+.footer{
+    height: 10%;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.rs-school{
+    height: 50%;
+    width: 10%;
+    background-color: white;
+}
